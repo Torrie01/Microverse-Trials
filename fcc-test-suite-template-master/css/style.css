@@ -1,0 +1,46 @@
+
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+main{
+    position: relative;
+}
+header{
+    background-image: url(img/bg-hero-mobile.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+h2{
+    justify-items: center;
+    align-items: center;
+    align-content: center;
+    margin: 0 auto;
+    font-family: 'Poppins', sans-serif;
+    text-align: center ;
+}
+p {
+    text-align: center ;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+main p{
+    color: rgba(61, 44, 44, 0.596);
+}
+footer{
+    padding-top: 50px;
+    padding-bottom: 30px;
+    margin-top: 70px;
+    background-color: rgb(26, 26, 78);
+}
+footer div p{
+    color: white;
+    font-weight: 400;
+    text-align: left;  
+    margin-left: 10px; 
+    margin-top: 10px;
+}
